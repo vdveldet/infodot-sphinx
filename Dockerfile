@@ -9,7 +9,7 @@ RUN apt-get install -y -q python-pip
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN pip install --upgrade pip
-RUN pip install --no-cache-dir Sphinx>1.5 pandoc sphinx_rtd_theme alabaster sphinx_bootstrap_theme sphinxcontrib-phpdomain
+RUN pip install --no-cache-dir Sphinx>1.5 pandoc sphinx_rtd_theme alabaster sphinx_bootstrap_theme sphinxcontrib-phpdomain rst2pdf
 
 RUN mkdir documents
 
