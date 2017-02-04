@@ -5,6 +5,7 @@ Docker file for Sphinx Document system
 	* sphinxcontrib-phpdomain for php Documentation
 	* pandoc
 	* rst2pdf
-	* sphinxcontrib-exceltable
 
 Using phusion/baseimage
+
+Added texlive-latex-recommended
