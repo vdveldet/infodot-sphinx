@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update 
 RUN apt-get install -y -q python-pip
-RUN apt-get install -y -q texlive-latex-recommended
+RUN apt-get install -y -q texlive-latex-recommended texlive-fonts-recommended
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN pip install --upgrade pip
