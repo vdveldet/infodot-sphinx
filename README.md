@@ -5,6 +5,8 @@ Docker file for Sphinx Document system
 	* sphinxcontrib-phpdomain for php Documentation
 	* pandoc
 	* rst2pdf
+	* blockdiag 
+	* nwdiag
 
 Using phusion/baseimage
 
