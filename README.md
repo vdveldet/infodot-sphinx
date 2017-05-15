@@ -11,3 +11,4 @@ Docker file for Sphinx Document system
 Using phusion/baseimage
 
 Added texlive-latex-recommended
+Added jinja
