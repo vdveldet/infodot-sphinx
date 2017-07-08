@@ -1,7 +1,7 @@
 # infodot-sphinx
 Docker file for Sphinx Document system
 
-	* Sphinx>1.5 Track
+	* Sphinx>1.6 Track
 	* sphinxcontrib-phpdomain for php Documentation
 	* pandoc
 	* rst2pdf
