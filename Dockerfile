@@ -10,7 +10,7 @@ RUN apt-get install -y -q texlive-latex-recommended texlive-fonts-recommended te
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN pip install --upgrade pip
-RUN pip install --no-cache-dir Sphinx>1.5 pandoc sphinx_rtd_theme alabaster sphinx_bootstrap_theme sphinxcontrib-phpdomain rst2pdf sphinxcontrib-blockdiag sphinxcontrib-nwdiag jinja
+RUN pip install --no-cache-dir Sphinx>1.6 pandoc sphinx_rtd_theme alabaster sphinx_bootstrap_theme sphinxcontrib-phpdomain rst2pdf sphinxcontrib-blockdiag sphinxcontrib-nwdiag jinja
 
 RUN mkdir documents
 
