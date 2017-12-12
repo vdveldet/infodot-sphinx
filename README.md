@@ -9,5 +9,6 @@ Docker file for Sphinx Document system
 	* nwdiag
 	* texlive-latex-recommended
 	* jinja 
+	* recommonmark
 
 Using phusion/baseimage
